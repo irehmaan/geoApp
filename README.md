@@ -1,16 +1,13 @@
 # geoapp
 
-A new Flutter project.
+# What has been implemented 
+User Interface Design:
+A clean and minimalistic design will be adopted for the UI to ensure ease of use and accessibility.✔
+The main interface will include a map display area, a ZIP code selection tool (searchfield), and a toolbar for polygon drawing operations. ✔
+Responsive design principles will be applied to ensure the application is usable on a wide range of
+devices, from smartphones to tablets and desktop computers. ❌ 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Functionality and Features:
+ZIP Code Selection: Users cantype it in a search box. The application will then display the geographic area corresponding to the search code on the map. ✔
+Map Interaction: Users will be able to pan and zoom within the map to view different levels of detail. ✔
+Polygon Tools: A set of drawing tools will be provided for creating and modifying polygons on the map. ❌
