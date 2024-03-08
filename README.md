@@ -18,6 +18,6 @@ Map Interaction: Users will be able to pan and zoom within the map to view diffe
 
 Current Location : Get current location marked on map. ✔
 
-Markers: Different markers for searched location and current location and text as well. ✔
+Markers: Different colored markers for searched location and current location and text as well. ✔
 
 Polygon Tools: A set of drawing tools will be provided for creating and modifying polygons on the map. ❌
