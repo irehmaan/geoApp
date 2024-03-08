@@ -84,11 +84,19 @@ class MapScreen extends StatelessWidget {
                                               .searchInitiated
                                           ? const Text("Showing Results for")
                                           : const Text("You're here"),
-                                      const Icon(
-                                        Icons.location_pin,
-                                        size: 40,
-                                        color: Colors.blue,
-                                      ),
+                                      context
+                                              .read<LocationProvider>()
+                                              .searchInitiated
+                                          ? const Icon(
+                                              Icons.location_pin,
+                                              size: 40,
+                                              color: Colors.red,
+                                            )
+                                          : const Icon(
+                                              Icons.location_pin,
+                                              size: 40,
+                                              color: Colors.blue,
+                                            ),
                                     ],
                                   ),
                                 ),
